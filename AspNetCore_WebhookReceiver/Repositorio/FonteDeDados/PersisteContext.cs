@@ -8,7 +8,7 @@ using Dominio;
 
 namespace Repositorio.FonteDeDados
 {
-    class PersisteContext : DbContext
+    public class PersisteContext : DbContext
     {
         public PersisteContext() { }
 
@@ -28,7 +28,7 @@ namespace Repositorio.FonteDeDados
             construtorDeModelos.Entity<Webhook_perfil>(etd =>
             {
                 etd.ToTable("tbWebhook_perfil");
-                etd.HasKey(x => x.Id).HasName("id");
+                etd.HasKey(x => x.Id).HasName("idPerfil");
                 etd.Property(x => x.Id).HasColumnName("id").ValueGeneratedOnAdd();
                 etd.Property(x => x.Nome).HasColumnName("nome").HasMaxLength(200);
                 etd.Property(x => x.Chave).HasColumnName("chave").HasMaxLength(200);
@@ -39,7 +39,7 @@ namespace Repositorio.FonteDeDados
             construtorDeModelos.Entity<Webhook_mensagem>(etd =>
             {
                 etd.ToTable("tbWebhook_mensagem");
-                etd.HasKey(x => x.Id).HasName("id");
+                etd.HasKey(x => x.Id).HasName("idMensagem");
                 etd.Property(x => x.Id).HasColumnName("id").ValueGeneratedOnAdd();
                 etd.Property(x => x.Descricao).HasColumnName("descricao").HasMaxLength(300);
                 etd.Property<DateTime>(x => x.Criacao).HasColumnName("criacao");
