@@ -1,0 +1,5 @@
+
+.vs/
+AspNetCore_WebhookReceiver/bin/
+AspNetCore_WebhookReceiver/obj/
+*.cache
