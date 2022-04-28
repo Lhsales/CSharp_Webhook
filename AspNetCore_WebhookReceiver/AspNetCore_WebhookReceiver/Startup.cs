@@ -9,6 +9,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+using Infra.Contexts;
+using Microsoft.EntityFrameworkCore;
+
 namespace AspNetCore_WebhookReceiver
 {
     public class Startup
@@ -24,6 +27,7 @@ namespace AspNetCore_WebhookReceiver
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<PersisteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("conexaoWebhook"), b => b.MigrationsAssembly("Repositorio")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

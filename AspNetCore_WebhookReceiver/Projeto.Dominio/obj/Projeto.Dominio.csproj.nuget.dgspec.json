@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Lua\\Projetos\\WebhookProjeto\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver.csproj": {}
+    "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\Projeto.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Lua\\Projetos\\WebhookProjeto\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver.csproj": {
+    "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\Projeto.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lua\\Projetos\\WebhookProjeto\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver.csproj",
-        "projectName": "AspNetCore_WebhookReceiver",
-        "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver.csproj",
+        "projectUniqueName": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\Projeto.Dominio.csproj",
+        "projectName": "Projeto.Dominio",
+        "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\Projeto.Dominio.csproj",
         "packagesPath": "C:\\Users\\luan\\.nuget\\packages\\",
-        "outputPath": "C:\\Lua\\Projetos\\WebhookProjeto\\AspNetCore_WebhookReceiver\\AspNetCore_WebhookReceiver\\obj\\",
+        "outputPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -54,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

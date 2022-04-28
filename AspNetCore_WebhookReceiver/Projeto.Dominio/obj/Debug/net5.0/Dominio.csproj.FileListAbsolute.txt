@@ -1,0 +1,12 @@
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.csprojAssemblyReference.cache
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Lua\Projetos\WebhookProjeto\CSharp_Webhook\AspNetCore_WebhookReceiver\Projeto.Dominio\obj\Debug\net5.0\Dominio.pdb
