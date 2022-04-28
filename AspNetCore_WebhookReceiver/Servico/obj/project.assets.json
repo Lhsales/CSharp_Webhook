@@ -5721,13 +5721,13 @@
     },
     "Dominio/1.0.0": {
       "type": "project",
-      "path": "../Projeto.Dominio/Dominio.csproj",
-      "msbuildProject": "../Projeto.Dominio/Dominio.csproj"
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
     },
     "Infra/1.0.0": {
       "type": "project",
-      "path": "../Repositorio/Infra.csproj",
-      "msbuildProject": "../Repositorio/Infra.csproj"
+      "path": "../Infra/Infra.csproj",
+      "msbuildProject": "../Infra/Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5768,11 +5768,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Projeto.Dominio\\Dominio.csproj"
+            "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Dominio\\Dominio.csproj"
             },
-            "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\Infra.csproj": {
-              "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\Infra.csproj"
+            "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Infra\\Infra.csproj"
             }
           }
         }

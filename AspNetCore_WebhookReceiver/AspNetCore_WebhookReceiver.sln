@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore_WebhookReceiver", "AspNetCore_WebhookReceiver\AspNetCore_WebhookReceiver.csproj", "{0606A911-E372-4C12-B055-19BB8CA90779}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Projeto.Dominio\Dominio.csproj", "{51A56330-74C2-4F92-A3EB-EC50871A9419}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Repositorio\Infra.csproj", "{02635890-1354-4DA3-A420-9B7EA6146841}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servico", "Servico\Servico.csproj", "{836EC8F5-105C-46FC-B545-560C8FD9C872}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.csproj", "{DCC06001-1475-4250-95F2-8DAC3CFF0763}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "Infra\Infra.csproj", "{70ED8EBC-12D9-4CA2-A76A-BAC699C387BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +21,18 @@ Global
 		{0606A911-E372-4C12-B055-19BB8CA90779}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0606A911-E372-4C12-B055-19BB8CA90779}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0606A911-E372-4C12-B055-19BB8CA90779}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51A56330-74C2-4F92-A3EB-EC50871A9419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51A56330-74C2-4F92-A3EB-EC50871A9419}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51A56330-74C2-4F92-A3EB-EC50871A9419}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51A56330-74C2-4F92-A3EB-EC50871A9419}.Release|Any CPU.Build.0 = Release|Any CPU
-		{02635890-1354-4DA3-A420-9B7EA6146841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02635890-1354-4DA3-A420-9B7EA6146841}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02635890-1354-4DA3-A420-9B7EA6146841}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02635890-1354-4DA3-A420-9B7EA6146841}.Release|Any CPU.Build.0 = Release|Any CPU
 		{836EC8F5-105C-46FC-B545-560C8FD9C872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{836EC8F5-105C-46FC-B545-560C8FD9C872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{836EC8F5-105C-46FC-B545-560C8FD9C872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{836EC8F5-105C-46FC-B545-560C8FD9C872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC06001-1475-4250-95F2-8DAC3CFF0763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC06001-1475-4250-95F2-8DAC3CFF0763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC06001-1475-4250-95F2-8DAC3CFF0763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC06001-1475-4250-95F2-8DAC3CFF0763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ED8EBC-12D9-4CA2-A76A-BAC699C387BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ED8EBC-12D9-4CA2-A76A-BAC699C387BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ED8EBC-12D9-4CA2-A76A-BAC699C387BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ED8EBC-12D9-4CA2-A76A-BAC699C387BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
