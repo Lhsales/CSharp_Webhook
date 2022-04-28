@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 
 
-namespace Dominio
+namespace Dominio.Models
 {
-    public class Webhook_perfil
+    public class Webhook_perfil : BaseEntity
     {
-        public Nullable<long> Id { get; set; }
         public string Nome { get; set; }
         public string Chave { get; set; }
         public DateTime Criacao { get; set; }
         public DateTime Atualizacao { get; set; }
 
         public List<Webhook_mensagem> Mensagens { get; set; }
-
     }
 }

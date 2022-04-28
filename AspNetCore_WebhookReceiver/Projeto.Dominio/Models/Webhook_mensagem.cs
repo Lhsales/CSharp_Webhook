@@ -1,10 +1,9 @@
 ﻿using System;
 
-namespace Dominio
+namespace Dominio.Models
 {
-    public class Webhook_mensagem
+    public class Webhook_mensagem : BaseEntity
     {
-        public int Id { get; set; }
         public string Descricao { get; set; }
         public DateTime Criacao { get; set; }
         public DateTime Atualizacao { get; set; }

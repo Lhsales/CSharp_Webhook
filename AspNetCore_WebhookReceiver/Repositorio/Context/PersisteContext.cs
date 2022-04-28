@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Dominio;
+using Dominio.Models;
 
-namespace Repositorio.FonteDeDados
+namespace Repositorio.Context
 {
     public class PersisteContext : DbContext
     {
