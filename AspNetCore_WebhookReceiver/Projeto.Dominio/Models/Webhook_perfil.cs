@@ -12,5 +12,11 @@ namespace Dominio.Models
         public DateTime Atualizacao { get; set; }
 
         public List<Webhook_mensagem> Mensagens { get; set; }
+
+        private void Valida()
+        {
+            if (string.IsNullOrEmpty(Nome))
+                throw new InvalidOperationException("Nome precisa estar preenchido.");
+        }
     }
 }
