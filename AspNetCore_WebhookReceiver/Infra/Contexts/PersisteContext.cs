@@ -18,9 +18,6 @@ namespace Infra.Contexts
             //Define que o EF deve utilizar método Identity nas chaves primárias
             construtorDeModelos.UseIdentityColumns();
 
-            //Define o nome da base criada para a aplicação
-            construtorDeModelos.HasDefaultSchema("AspNetCore_Webhook");
-
             construtorDeModelos.Entity<Webhook_perfil>(etd =>
             {
                 etd.ToTable("tbWebhook_perfil");
