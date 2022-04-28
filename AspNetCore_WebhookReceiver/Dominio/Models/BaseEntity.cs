@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Dominio.Models
 {
     public abstract class BaseEntity
