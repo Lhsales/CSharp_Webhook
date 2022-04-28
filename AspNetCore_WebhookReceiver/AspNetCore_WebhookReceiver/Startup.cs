@@ -32,7 +32,7 @@ namespace AspNetCore_WebhookReceiver
         {
             services.AddControllersWithViews();
             services.AddDbContext<PersisteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("conexaoWebhook"), b => b.MigrationsAssembly("Infra")));
-            services.AddScoped<IBaseRepository<Webhook_perfil>, BaseRepository<Webhook_perfil>>();
+            services.AddScoped<IBaseRepository<Webhook_perfil>, PerfilRepository>();
             services.AddScoped<IBaseService<Webhook_perfil>, BaseServices<Webhook_perfil>>();
 
         }

@@ -37,7 +37,7 @@ namespace Infra.Repositories
             _persisteContext.SaveChanges();
         }
 
-        public IList<TEntity> GetAll() => _persisteContext.Set<TEntity>().ToList();
+        public virtual IList<TEntity> GetAll() => _persisteContext.Set<TEntity>().ToList();
         public TEntity GetById(int id) => _persisteContext.Set<TEntity>().Find(id);
 
         private TEntity atualizacaoTimeStamp(TEntity obj) 
