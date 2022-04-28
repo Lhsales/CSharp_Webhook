@@ -10,6 +10,10 @@ using System.Linq;
 using System.Threading.Tasks;
 
 using Infra.Contexts;
+using Infra.Repositories;
+using Dominio.Interfaces;
+using Dominio.Models;
+using Servico.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace AspNetCore_WebhookReceiver
@@ -27,7 +31,10 @@ namespace AspNetCore_WebhookReceiver
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<PersisteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("conexaoWebhook"), b => b.MigrationsAssembly("Repositorio")));
+            services.AddDbContext<PersisteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("conexaoWebhook"), b => b.MigrationsAssembly("Infra")));
+            services.AddScoped<IBaseRepository<Webhook_perfil>, BaseRepository<Webhook_perfil>>();
+            services.AddScoped<IBaseService<Webhook_perfil>, BaseServices<Webhook_perfil>>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
