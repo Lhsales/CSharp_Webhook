@@ -5,7 +5,7 @@
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/_._": {}
+          "lib/netstandard2.0/Humanizer.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/Humanizer.dll": {}
@@ -5820,9 +5820,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\Repositorio.csproj",
-      "projectName": "Repositorio",
-      "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\Repositorio.csproj",
+      "projectUniqueName": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\Infra.csproj",
+      "projectName": "Infra",
+      "projectPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\Infra.csproj",
       "packagesPath": "C:\\Users\\luan\\.nuget\\packages\\",
       "outputPath": "C:\\Lua\\Projetos\\WebhookProjeto\\CSharp_Webhook\\AspNetCore_WebhookReceiver\\Repositorio\\obj\\",
       "projectStyle": "PackageReference",

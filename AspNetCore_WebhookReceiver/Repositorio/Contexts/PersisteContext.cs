@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Dominio.Models;
 
-namespace Repositorio.Context
+namespace Infra.Contexts
 {
     public class PersisteContext : DbContext
     {
