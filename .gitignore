@@ -2,4 +2,10 @@
 AspNetCore_WebhookReceiver/.vs/
 AspNetCore_WebhookReceiver/AspNetCore_WebhookReceiver/bin/
 AspNetCore_WebhookReceiver/AspNetCore_WebhookReceiver/obj/
+AspNetCore_WebhookReceiver/Dominio/bin/
+AspNetCore_WebhookReceiver/Dominio/obj/
+AspNetCore_WebhookReceiver/Infra/bin/
+AspNetCore_WebhookReceiver/Infra/obj/
+AspNetCore_WebhookReceiver/Servico/bin/
+AspNetCore_WebhookReceiver/Servico/obj/
 *.cache
